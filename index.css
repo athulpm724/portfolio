@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Shadows+Into+Light&display=swap');
+
+body{
+    height: 300vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.container1{
+    height: 100vh;
+    width: 100vw;
+}
+
+.container1{
+    background-color: black;
+}
+
+
+h1{
+    margin: 0px;
+}
+
+span{
+    margin-top: 10px;
+    height: 20px;
+}
+.c1-h1{
+    color: rgb(243, 233, 233);
+    font-family: 'Poppins';
+    font-size: 100px;
+    padding-left: 50px;
+    padding-top: 100px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+}
+
+@keyframes namechange{
+    0%{
+        font-family: 'Poppins';
+    }
+    25%{
+        font-family: 'Pacifico',cursive;
+    }
+    50%{
+       font-family: 'Shadows Into Light', cursive;
+    }
+    75%{
+        font-family: 'Pacifico',cursive;
+    }
+    100%{
+        font-family: 'Poppins';
+    }
+}
+
+#name{
+    margin-left: 50px;
+    transition: ease-in-out;
+    animation: namechange 6s ease-out 0s infinite;
+}
+
+#iam{
+   display: inline-block;
+}
+
+#hi{
+    font-size: 150px;
+    color: #00DFA2;
+}
+
+.nav>ul>li{
+    display: inline;
+    color:white;
+    margin-left: 100px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    -webkit-box-shadow: 0px 10px 0px 0px rgba(0,223,164,1);
+-moz-box-shadow: 0px 10px 0px 0px rgba(0,223,164,1);
+box-shadow: 0px 10px 0px 0px rgba(0,223,164,1);
+}
+
+.nav>ul>li>a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav{
+    position: sticky;
+    top: 0px;
+    margin-left: 700px;
+    padding-top: 20px;
+    width: 700px;
+    height: 50px;
+}
+
+.nav>ul>li>a:hover{
+    transform: scale(20%);
+    color: gray;
+}
+
+.container1:nth-child(2){
+    background-color: #00DFA2;
+}
+
+.c2-h1{
+    color: black;
+    font-family: 'Poppins';
+    font-size: 100px;
+    padding-left: 50px;
+    padding-top: 100px;
+    margin-top: 160px;
+}
+
+
+
+svg{
+    margin-top: -95px;
+    padding-top: 10px;
+}
+
+.shead{
+    display: inline;
+    margin-left: 50px;
+    font-size: 50px;
+    font-family: 'Poppins';
+    color: white;
+    -webkit-box-shadow: 0px 10px 0px 0px rgb(0, 0, 0);
+-moz-box-shadow: 0px 10px 0px 0px rgb(0, 0, 0);
+box-shadow: 0px 10px 0px 0px rgb(0, 0, 0);
+}
+
+.qhead{
+    font-family: 'Shadows Into Light';
+    font-size: 40px;
+    padding-top: 40px;
+    margin-left: 50px;
+}
+
+i{
+    margin-left: 150px;
+    margin-top: 150px;
+    transform: scale(250%);
+    animation: disappear 2s ease-in-out 0s infinite;
+}
+
+@keyframes disappear{
+    0%{
+        transform: scale(250%);
+        opacity: 100%;
+        
+    }
+    50%{
+        transform: scale(230%);
+        opacity: 0%;
+    }
+    100%{
+        transform: scale(250%);
+        opacity: 100%;
+    }
+}
+
+
+.wk1,.wk2{
+    margin-top: 50px;
+    width: 550px;
+    height: 300px;
+    margin-left: 100px;
+}
+
+.wk1{
+    -webkit-box-shadow: 0px 0px 0px 10px rgba(246,250,112,1);
+-moz-box-shadow: 0px 0px 0px 10px rgba(246,250,112,1);
+box-shadow: 0px 0px 0px 10px rgba(246,250,112,1);
+
+}
+
+.wk2{
+    -webkit-box-shadow: 0px 0px 0px 10px rgba(255,0,96,1);
+-moz-box-shadow: 0px 0px 0px 10px rgba(255,0,96,1);
+box-shadow: 0px 0px 0px 10px rgba(255,0,96,1);
+}
+
+.c5-h1{
+    font-family: 'Poppins';
+    font-size: 70px;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-top: 50px;
+    color: white;
+}
+
+form{
+    margin-top: 100px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form>.ts{
+    width: 250px;
+    border:2px solid white;
+    background-color: transparent;
+    color: White;
+    font-family: 'Poppins';
+    font-weight: bold;
+    height: 60px;
+    margin-top: 15px;
+}
+
+textarea{
+    margin-top: 15px;
+    width: 450px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: bold;
+    text-indent: 5px;
+}
+
+form>.ti{
+    text-indent: 5px;
+    height: 40px;
+    width: 450px;
+    margin-top: 15px;
+    background-color: transparent;
+    border: 2px solid white;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: white;
+}
+.ts:hover{
+    background-color:  rgba(246,250,112,1);
+    border: 2px solid  rgba(246,250,112,1);
+    color: black;
+}
